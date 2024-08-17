@@ -46,6 +46,15 @@
         font-size: 10pt;
     }
 
+    #burguer {
+        display: none;
+    }
+
+    nav{
+        display: block;
+       
+    }
+
     .imagem > img {
         width: 450px;
     }
@@ -57,7 +66,15 @@
 }
 
 @media screen and (min-width:870px) and (max-width:965px) {
-       
+        
+        #burguer {
+            display: none;
+        }
+
+        nav {
+            display: block;
+            color: black;
+        }
 
         .imagem > img {
             width: 450px;
@@ -77,6 +94,16 @@
 }
 
 @media  screen and (min-width:965px) and (max-width:1200px) {
+        #burguer {
+            display: none;
+        }
+
+        nav {
+            display: block;
+            
+        }
+    
+    
         .imagem > img {
             width: 455px;
         }
@@ -113,5 +140,14 @@
     
     .imagem > img {
         width: 450px;
+    }
+
+    #burguer {
+        display: none;
+    }
+
+     nav {
+        display: block;
+       
     }
 }

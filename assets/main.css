@@ -36,19 +36,22 @@ header {
    
 }
 
-#hamburguer {
+#burguer {
     cursor: pointer;
 }
 
-#menu {
-    
-    
-    cursor: pointer;
+#navmenu {
+    display: none;
+}
+
+#navmenu > a {
+    margin: 1em;
+  
 }
 
 header > nav  {
     display: none;
-    gap: 40px;
+    gap: 20px;
 }
 
 header > nav > a {
@@ -70,7 +73,7 @@ header > nav > a:hover {
 }
 
 main {
-    height: 56.9vh;
+    height: 55.9vh;
 }
 
 
