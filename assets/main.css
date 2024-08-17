@@ -36,6 +36,10 @@ header {
    
 }
 
+#hamburguer {
+    cursor: pointer;
+}
+
 #menu {
     
     
