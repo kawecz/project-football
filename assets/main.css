@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Moderustic:wght@300..800&family=New+Amsterdam&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+:root {
+    --cor1:#0D0D0D;
+    --cor2:#262626;
+    --cor3:#595959;
+    --cor4:#F2F2F2;
+}
+    
+body,html {
+    background-color: var(--cor1);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+    height: 10vh;
+    width: 100vw;
+
+    width:100vw;
+   
+}
+
+#menu {
+    
+    
+    cursor: pointer;
+}
+
+header > nav  {
+    display: none;
+    gap: 40px;
+}
+
+header > nav > a {
+    color: var(--cor1);
+    font-family: "New Amsterdam", system-ui;
+    font-weight: lighter;
+}
+
+header > nav > a:hover {
+    color: var(--cor3);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    height: 56.9vh;
+}
+
+
+main > section > h1 {
+    color: var(--cor4);
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 15pt;
+    width: 150px;
+}
+
+main > section > h2 {
+    color: var(--cor4);
+    font-family:  "Moderustic", sans-serif;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+main > section > p {
+    color: var(--cor4);
+    font-family:  "Moderustic", sans-serif;
+    margin-top: 1em;
+
+    font-size: 10pt;
+}
+
+.imagem > img {
+    width: 180px;
+    border-bottom-left-radius: 5em;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.274);
+}
+
+footer {
+    background-color: var(--cor4);
+    height: 20.5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.4em;
+}
+
+footer > p > a {
+    color: var(--cor2);
+}
+
+footer > p > a:hover {
+    color: var(--cor1);
+}
