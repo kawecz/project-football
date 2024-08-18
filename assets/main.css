@@ -30,7 +30,7 @@ header {
 
     
     height: 10vh;
-    width: 100vw;
+    width: 90vw;
 
     width:100vw;
    
@@ -58,6 +58,7 @@ header > nav > a {
     color: var(--cor1);
     font-family: "New Amsterdam", system-ui;
     font-weight: lighter;
+    font-size: 11pt;
 }
 
 header > nav > a:hover {
